@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+</head>
+<body>
+  
+        <div class="outerbox">
+            
+                <form action="/register" method="post">
+                    <h2> Registration Form</h2>
+
+                    <div class="wrapper">
+                        <i class="material-symbols-outlined">person</i>
+                        <input type="text" class="box" id="name" name="name" placeholder="Name" />
+                    </div>
+                      <div class="wrapper">
+                        <i class="material-symbols-outlined">lock</i>
+                        <input type="number" class="box" id="age" name="age" placeholder="Age" required/>
+                     </div>
+                     <div class="wrapper">
+                        <i class="material-symbols-outlined">email</i>
+                        <input type="email" class="box" id="email" name="email" placeholder="EmailId" required/>
+                    </div>
+                    <div class="wrapper">
+                        <i class="material-symbols-outlined">phone</i>
+                        <input type="number" class="box" id="phno" name="phno" placeholder="Mobile" required/>
+                    </div>
+                    <div class="wrapper">
+                        <i class="material-symbols-outlined">psychology_alt</i>
+                        <input type="text" class="box" id="gender" name="gender" placeholder="Gender" required/>
+                    </div>
+                    <div class="wrapper">
+                        <i class="material-symbols-outlined">lock</i>
+                        <input type="password" class="box" id="password" name="password" placeholder="Password" required/>
+                    </div>
+                   
+
+              
+                    <button type="button" onclick="location.href='success.html'">
+                        Submit
+                    </button>
+
+                </form>
+            
+        </div>
+        <script src="C:\Users\Asus\Desktop\RegisterationForm\index.js"></script>
+    
+</body>
+</html>
